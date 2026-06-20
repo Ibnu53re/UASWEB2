@@ -45,5 +45,5 @@
 
 ## 🔗 Link
 
-- 🎥 **Video Presentasi:** [YouTube](https://youtube.com/LINK_VIDEO)
+- 🎥 **Video Presentasi:** [YouTube](https://youtu.be/HNKGeBTBC9I?si=ZBjEHeAqjdomj00v)
 - 🌐 **Demo:** http://localhost/inventaris2_db/frontend-spa/index.html
