@@ -1,0 +1,18 @@
+CRITICAL - 2026-06-18 09:47:22 --> ErrorException: fwrite(): Write of 85 bytes failed with errno=22 Invalid argument
+[Method: GET, Route: /]
+in SYSTEMPATH\CLI\InputOutput.php on line 78.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'fwrite(): Write of 85 bytes failed with errno=22 Invalid argument', 'C:\\xampp\\htdocs\\inventaris2_db\\backend-api\\system\\CLI\\InputOutput.php', 78)
+ 2 SYSTEMPATH\CLI\InputOutput.php(78): fwrite(resource (stream), '
+CodeIgniter v4.7.3 Command Line Tool - Server Time: 2026-06-18 09:47:20 UTC+00:00
+')
+ 3 SYSTEMPATH\CLI\CLI.php(1135): CodeIgniter\CLI\InputOutput->fwrite(resource (stream), '
+CodeIgniter v4.7.3 Command Line Tool - Server Time: 2026-06-18 09:47:20 UTC+00:00
+')
+ 4 SYSTEMPATH\CLI\CLI.php(467): CodeIgniter\CLI\CLI::fwrite(resource (stream), '
+CodeIgniter v4.7.3 Command Line Tool - Server Time: 2026-06-18 09:47:20 UTC+00:00
+')
+ 5 SYSTEMPATH\CLI\Console.php(61): CodeIgniter\CLI\CLI::write('
+CodeIgniter v4.7.3 Command Line Tool - Server Time: 2026-06-18 09:47:20 UTC+00:00', 'green')
+ 6 SYSTEMPATH\Boot.php(435): CodeIgniter\CLI\Console->showHeader(false)
+ 7 SYSTEMPATH\Boot.php(164): CodeIgniter\Boot::initializeConsole()
+ 8 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
